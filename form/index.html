@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input/Form event</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- old method -->
+<!-- 
+    <form action="/signup">
+        <input type="text" placeholder="your name">
+        <label>
+            <input type="checkbox">
+            I agree to terms and conditions
+        </label>
+        <select name="" id="">
+            <option value="java">Java</option>
+            <option value="node">Node</option>
+        </select>
+        <input type="submit">
+    </form> -->
+
+
+    <form name="emplname" id = "signup-form" action="/login" method="get">
+        <input type="text" placeholder="your name" id="name">
+        <label>
+            <input name="termscheckbox" type="checkbox" id="terms">
+            I agree to terms and conditions
+        </label>
+        <select name="tech" id="tech">
+            <option value="java">Java</option>
+            <option value="node">Node</option>
+        </select>
+        <input type="submit">
+    </form>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
